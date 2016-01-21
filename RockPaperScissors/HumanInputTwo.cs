@@ -13,7 +13,7 @@ namespace RockPaperScissors
         {
             string humanTwo = StartGame.playerTwoName;
             string resultTwo = "";
-            Console.WriteLine(humanTwo + "... rock, paper, or scissors?");
+            Console.WriteLine(humanTwo + "... rock, paper, scissors, lizard, or Spock?");
             string input = Console.ReadLine();
 
             if ((input == "rock") || (input == "Rock"))
@@ -27,6 +27,14 @@ namespace RockPaperScissors
             else if ((input == "scissors") || (input == "Scissors"))
             {
                 resultTwo = "scissors";
+            }
+            else if ((input == "lizard") || (input == "Lizard"))
+            {
+                resultTwo = "lizard";
+            }
+            else if ((input == "spock") || (input == "Spock"))
+            {
+                resultTwo = "Spock";
             }
             return resultTwo;
         }
