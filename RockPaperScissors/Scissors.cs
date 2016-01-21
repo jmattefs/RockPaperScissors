@@ -8,5 +8,9 @@ namespace RockPaperScissors
 {
     class Scissors
     {
+        public Scissors()
+        {
+
+        }
     }
 }
