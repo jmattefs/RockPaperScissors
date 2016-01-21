@@ -11,11 +11,24 @@ namespace RockPaperScissors
         static void Main(string[] args)
         {
             Game game = new Game();
-            game.startGame.start();
+            string type = game.startGame.start();
+            if(type == "1")
+            {
+                string humanResult = game.humanInput.humanChoice();
+                string aiResult = game.aiInput.getCompChoice();
+                game.checkWinner.checkWinnerAi(humanResult, aiResult);
+            } else if (type == "2")
+            {
+                string humanResult = game.humanInput.humanChoice();
+                string humanResultTwo = game.humanInputTwo.humanChoiceTwo();
+                game.checkWinner.checkWinnerH2H(humanResult, humanResultTwo);
 
-            string humanResult = game.humanInput.humanChoice();
-            string aiResult = game.aiInput.getCompChoice();
-            game.checkWinner.checkWinnerAi(humanResult, aiResult);
+            } else if (type == "3")
+            {
+                game.startGame.start();
+            }
+
+            
 
 
         }

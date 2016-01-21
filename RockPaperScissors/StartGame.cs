@@ -16,16 +16,22 @@ namespace RockPaperScissors
 
         }
         
-        public void start()
+        public string start()
         {
             Console.WriteLine("How many humans are playing? Type 1 or 2 ");
             string players = Console.ReadLine();
             if (players == "1")
             {
                 setupOne();
+                return "1";
             } else if (players == "2")
             {
                 setupTwo();
+                return "2";
+            } else
+            {
+                return "3";
+                    
             }
 
         }

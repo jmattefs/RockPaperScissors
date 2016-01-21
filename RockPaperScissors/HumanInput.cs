@@ -11,8 +11,9 @@ namespace RockPaperScissors
         static public string result;
         public string humanChoice()
         {
+            string human = StartGame.playerOneName;
             string result = "";
-            Console.WriteLine("Rock, paper, or scissors?");
+            Console.WriteLine(human + "... rock, paper, or scissors?");
             string input = Console.ReadLine();
 
             if ((input == "rock")||(input == "Rock")){
