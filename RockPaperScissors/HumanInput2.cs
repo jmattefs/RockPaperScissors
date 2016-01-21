@@ -10,23 +10,29 @@ namespace RockPaperScissors
     {
         public string humanChoiceTwo()
         {
-            string result = null;
+            string result;
             Console.WriteLine("Rock, paper, or scissors?");
             string input = Console.ReadLine();
 
             if ((input == "rock") || (input == "Rock"))
             {
                 result = "rock";
+                return result;
             }
             else if ((input == "paper") || (input == "Paper"))
             {
                 result = "paper";
+                return result;
             }
             else if ((input == "scissors") || (input == "Scissors"))
             {
                 result = "scissors";
+                return result;
             }
-            return result;
+            else { result = null;
+                return result;
+            }
+            
         }
 
     }

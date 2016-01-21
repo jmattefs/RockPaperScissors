@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AIInput.cs" />
     <Compile Include="CheckWinner.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="HumanInput.cs" />
     <Compile Include="HumanInput2.cs" />
     <Compile Include="Paper.cs" />

@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    class AIInput
+    public class AIInput
     {
         Random random = new Random();
-
+        public static string result;
         public string getCompChoice()
         {
             int choice = random.Next(1, 4);
-            string result = null;
+            string result = "";
             if (choice == 1)
             {
                 result = "rock";

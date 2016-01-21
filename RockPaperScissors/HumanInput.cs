@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    class HumanInput
+    public class HumanInput
     {
+        static public string result;
         public string humanChoice()
         {
-            string result = null;
+            string result = "";
             Console.WriteLine("Rock, paper, or scissors?");
             string input = Console.ReadLine();
 

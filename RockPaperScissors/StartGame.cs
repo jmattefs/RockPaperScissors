@@ -11,15 +11,14 @@ namespace RockPaperScissors
         string playerOneName;
         string playerTwoName;
 
-        public StartGame(string playerOneName, string playerTwoName)
+        public StartGame()
         {
-            this.playerOneName = playerOneName;
-            this.playerTwoName = playerTwoName;
+
         }
         
         public void start()
         {
-            Console.WriteLine("How many people are playing? 1 or 2 ");
+            Console.WriteLine("How many humans are playing? Type 1 or 2 ");
             string players = Console.ReadLine();
             if (players == "1")
             {
@@ -30,10 +29,11 @@ namespace RockPaperScissors
             }
 
         }
-        public void setupOne()
+        public string setupOne()
         {
             Console.WriteLine("What is your name?");
             playerOneName = Console.ReadLine();
+            return playerOneName;
 
         
         }
