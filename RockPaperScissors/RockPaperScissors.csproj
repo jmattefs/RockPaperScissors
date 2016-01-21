@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AIInput.cs" />
+    <Compile Include="CheckWinner.cs" />
+    <Compile Include="HumanInput.cs" />
+    <Compile Include="HumanInput2.cs" />
     <Compile Include="Paper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
