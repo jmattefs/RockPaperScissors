@@ -52,10 +52,11 @@
     <Compile Include="Paper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reader.cs" />
     <Compile Include="Rock.cs" />
     <Compile Include="Scissors.cs" />
-    <Compile Include="Score.cs" />
     <Compile Include="StartGame.cs" />
+    <Compile Include="Writer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
