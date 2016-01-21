@@ -12,6 +12,7 @@ namespace RockPaperScissors
         {
             Game game = new Game();
             game.startGame.start();
+
             string humanResult = game.humanInput.humanChoice();
             string aiResult = game.aiInput.getCompChoice();
             game.checkWinner.checkWinnerAi(humanResult, aiResult);

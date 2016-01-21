@@ -8,8 +8,8 @@ namespace RockPaperScissors
 {
     public class StartGame
     {
-        string playerOneName;
-        string playerTwoName;
+        static public string playerOneName;
+        static public string playerTwoName;
 
         public StartGame()
         {
@@ -29,11 +29,11 @@ namespace RockPaperScissors
             }
 
         }
-        public string setupOne()
+        public void setupOne()
         {
             Console.WriteLine("What is your name?");
             playerOneName = Console.ReadLine();
-            return playerOneName;
+           
 
         
         }

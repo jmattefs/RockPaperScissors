@@ -48,7 +48,9 @@
     <Compile Include="Game.cs" />
     <Compile Include="HumanInput.cs" />
     <Compile Include="HumanInput2.cs" />
+    <Compile Include="HumanInputTwo.cs" />
     <Compile Include="Paper.cs" />
+    <Compile Include="PlayGame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rock.cs" />
