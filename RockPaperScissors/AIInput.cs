@@ -12,7 +12,7 @@ namespace RockPaperScissors
         public static string result;
         public string getCompChoice()
         {
-            int choice = random.Next(1, 4);
+            int choice = random.Next(1, 6);
             string result = "";
             if (choice == 1)
             {
@@ -23,6 +23,12 @@ namespace RockPaperScissors
             } else if (choice == 3)
             {
                 result = "scissors";
+            } else if (choice == 4)
+            {
+                result = "lizard";
+            } else if (choice == 5)
+            {
+                result = "Spock";
             }
             return result;
             

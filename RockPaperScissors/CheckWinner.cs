@@ -44,6 +44,7 @@ namespace RockPaperScissors
             else if (humanChoice == humanTwoChoice)
             {
                 Console.WriteLine("Tie game. Reshoot.");
+                
             }
         }
     }

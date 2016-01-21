@@ -21,7 +21,7 @@ namespace RockPaperScissors
             {
                 string humanResult = game.humanInput.humanChoice();
                 string humanResultTwo = game.humanInputTwo.humanChoiceTwo();
-                game.checkWinner.checkWinnerH2H(humanResult, humanResultTwo);
+                game.checkWinner.checkWinnerAi(humanResult, humanResultTwo);
 
             } else if (type == "3")
             {

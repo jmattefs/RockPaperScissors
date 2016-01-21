@@ -9,6 +9,7 @@ namespace RockPaperScissors
     public class HumanInput
     {
         static public string result;
+
         public string humanChoice()
         {
             string human = StartGame.playerOneName;

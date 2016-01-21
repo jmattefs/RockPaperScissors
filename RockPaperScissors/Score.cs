@@ -3,16 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using RockPaperScissors;
-
 
 namespace RockPaperScissors
 {
-    public class PlayGame
+    class Score
     {
-        public void vsCPU()
-        {
-            
-        }
+
     }
 }
