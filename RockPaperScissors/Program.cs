@@ -19,12 +19,16 @@ namespace RockPaperScissors
                 if (type == "1")
                 {
                     string humanResult = game.humanInput.humanChoice();
+                    
+
                     string aiResult = game.aiInput.getCompChoice();
+                   
                     tie = game.checkWinner.checkWinnerAi(humanResult, aiResult);
                 }
                 else if (type == "2")
                 {
                     string humanResult = game.humanInput.humanChoice();
+                    Console.Clear();
                     string humanResultTwo = game.humanInputTwo.humanChoiceTwo();
                     tie = game.checkWinner.checkWinnerH2H(humanResult, humanResultTwo);
 

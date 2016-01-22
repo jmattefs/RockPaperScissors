@@ -14,6 +14,7 @@ namespace RockPaperScissors
         public AIInput aiInput;
         public CheckWinner checkWinner;
         public HumanInputTwo humanInputTwo;
+      
         
 
         public Game()
@@ -25,6 +26,8 @@ namespace RockPaperScissors
             checkWinner = new CheckWinner();
 
             humanInputTwo = new HumanInputTwo();
+
+            
            
         }
     }
