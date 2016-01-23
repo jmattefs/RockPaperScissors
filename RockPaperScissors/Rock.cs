@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    class Rock
+    public class Rock
     {
-        
+       public void RockWinScissor()
+        {
+            Console.WriteLine("Rock crushes Scissors");
+        } 
+        public void RockWinLizard()
+        {
+            Console.WriteLine("Rock crushes Lizard");
+        }
     }
 }

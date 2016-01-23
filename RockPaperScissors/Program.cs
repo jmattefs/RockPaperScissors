@@ -25,14 +25,14 @@ namespace RockPaperScissors
 
                     string aiResult = game.aiInput.getCompChoice();
                    
-                    tie = game.checkWinner.checkWinnerAi(humanResult, aiResult);
+                    tie = game.winCheck.winCheckerAI(humanResult, aiResult);
                 }
                 else if (type == "2")
                 {
                     string humanResult = game.humanInput.humanChoice();
                     Console.Clear();
                     string humanResultTwo = game.humanInputTwo.humanChoiceTwo();
-                    tie = game.checkWinner.checkWinnerH2H(humanResult, humanResultTwo);
+                    tie = game.winCheck.winCheckerH2H(humanResult, humanResultTwo);
 
                 }
                 else if (type == "3")

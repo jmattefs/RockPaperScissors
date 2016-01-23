@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    class Scissors
+    public class Scissors
     {
-        public Scissors()
+        public void ScissorsWinCut()
         {
-
+            Console.WriteLine("Scissors cuts Paper");
         }
+        public void ScissorsWinDecap()
+        {
+            Console.WriteLine("Scissors decapitates Lizard");
+        }
+       
     }
 }

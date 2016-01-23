@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace RockPaperScissors
 {
-    class Paper
+    public class Paper
     {
-        public Paper()
+        public void PaperWinCover()
         {
-
+            Console.WriteLine("Paper covers Rock");
         }
+        public void PaperWinDisprove()
+        {
+            Console.WriteLine("Paper disproves Spock");
+        }
+       
     }
 }
