@@ -7,7 +7,13 @@ using System.IO;
 
 namespace RockPaperScissors
 {
-    class Writer
+    class ReadWrite
     {
+        public static void Scorer()
+        {
+           
+        
+
+        }
     }
 }

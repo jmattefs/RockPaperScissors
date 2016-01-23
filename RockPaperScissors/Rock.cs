@@ -8,9 +8,6 @@ namespace RockPaperScissors
 {
     class Rock
     {
-        public Rock()
-        {
-
-        }
+        
     }
 }
