@@ -23,7 +23,6 @@ namespace RockPaperScissors
             {
                 rock.RockWinScissor();
                 Console.WriteLine(player + " wins");
-                score.keepScore(player);
                 return true;
             }
             else if (human == "rock" && ai == "paper")

@@ -9,13 +9,15 @@ namespace RockPaperScissors
 {
     public class ReadWrite
     {
-        public void writeTextToDocument() 
+       
+        
+        public void writeTextToDocument(string one) 
         {
-            string [] names = { StartGame.playerOneName, StartGame.playerTwoName };
+            
 
-           File.AppendAllLines (@"c:\users\joseph\desktop\rockpaperscissors\rockpaperscissorsrepo\highscores.txt", names);
+           File.AppendAllText (@"c:\users\joseph\desktop\rockpaperscissors\rockpaperscissorsrepo\highscores.txt",one);
 
-            int [] score = {}
+            
            
 
         }

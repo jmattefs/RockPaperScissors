@@ -7,14 +7,15 @@ using System.IO;
 
 namespace RockPaperScissors
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
            
             Game game = new Game();
             string type = game.startGame.start();
             bool tie  = false;
+            
 
             while (!tie)
             {
@@ -26,6 +27,12 @@ namespace RockPaperScissors
                     string aiResult = game.aiInput.getCompChoice();
                    
                     tie = game.winCheck.winCheckerAI(humanResult, aiResult);
+
+                   string outcome = game.results.resultCheckAI(humanResult, aiResult);
+
+                    game.readWrite.writeTextToDocument(outcome);
+
+
                 }
                 else if (type == "2")
                 {
@@ -33,8 +40,10 @@ namespace RockPaperScissors
                     Console.Clear();
                     string humanResultTwo = game.humanInputTwo.humanChoiceTwo();
                     tie = game.winCheck.winCheckerH2H(humanResult, humanResultTwo);
+                    string outcome = game.results.resultCheckAI(humanResult, humanResultTwo);
 
-                    game.readWrite.writeTextToDocument();
+                    game.readWrite.writeTextToDocument(outcome);
+
                 }
                 else if (type == "3")
                 {
