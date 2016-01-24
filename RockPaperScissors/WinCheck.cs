@@ -13,6 +13,7 @@ namespace RockPaperScissors
         Scissors scissors = new Scissors();
         Lizard lizard = new Lizard();
         Spock spock = new Spock();
+        Score score = new Score();
 
         public bool winCheckerAI(string human, string ai)
         {
@@ -22,6 +23,7 @@ namespace RockPaperScissors
             {
                 rock.RockWinScissor();
                 Console.WriteLine(player + " wins");
+                score.keepScore(player);
                 return true;
             }
             else if (human == "rock" && ai == "paper")

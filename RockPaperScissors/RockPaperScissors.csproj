@@ -56,6 +56,7 @@
     <Compile Include="ReadWrite.cs" />
     <Compile Include="Rock.cs" />
     <Compile Include="Scissors.cs" />
+    <Compile Include="Score.cs" />
     <Compile Include="Spock.cs" />
     <Compile Include="StartGame.cs" />
     <Compile Include="WinCheck.cs" />

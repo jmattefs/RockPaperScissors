@@ -7,13 +7,18 @@ using System.IO;
 
 namespace RockPaperScissors
 {
-    class ReadWrite
+    public class ReadWrite
     {
-        public static void Scorer()
+        public void writeTextToDocument() 
         {
+            string [] names = { StartGame.playerOneName, StartGame.playerTwoName };
+
+           File.AppendAllLines (@"c:\users\joseph\desktop\rockpaperscissors\rockpaperscissorsrepo\highscores.txt", names);
+
+            int [] score = {}
            
-        
 
         }
     }
 }
+ 

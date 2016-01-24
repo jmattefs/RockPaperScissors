@@ -34,6 +34,7 @@ namespace RockPaperScissors
                     string humanResultTwo = game.humanInputTwo.humanChoiceTwo();
                     tie = game.winCheck.winCheckerH2H(humanResult, humanResultTwo);
 
+                    game.readWrite.writeTextToDocument();
                 }
                 else if (type == "3")
                 {

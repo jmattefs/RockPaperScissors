@@ -15,6 +15,8 @@ namespace RockPaperScissors
         
         public HumanInputTwo humanInputTwo;
         public WinCheck winCheck;
+        public ReadWrite readWrite;
+        public Score score;
       
         
 
@@ -30,6 +32,9 @@ namespace RockPaperScissors
 
             humanInputTwo = new HumanInputTwo();
 
+            readWrite = new ReadWrite();
+
+            score = new Score();
             
            
         }
