@@ -32,6 +32,8 @@ namespace RockPaperScissors
 
                     game.readWrite.writeTextToDocument(outcome);
 
+                    Console.WriteLine();
+
 
                 }
                 else if (type == "2")

@@ -13,12 +13,8 @@ namespace RockPaperScissors
         
         public void writeTextToDocument(string one) 
         {
-            
-
-           File.AppendAllText (@"c:\users\joseph\desktop\rockpaperscissors\rockpaperscissorsrepo\highscores.txt",one);
-
-            
-           
+          
+           File.AppendAllText (@"c:\users\joseph\desktop\rockpaperscissors\rockpaperscissorsrepo\highscores.txt",one + Environment.NewLine);
 
         }
     }

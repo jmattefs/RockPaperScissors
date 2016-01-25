@@ -11,7 +11,7 @@ namespace RockPaperScissors
         public string resultCheckAI(string human, string ai)
         {
             string player = StartGame.playerOneName;
-            string computer = "The computer ";
+            string computer = "The Computer ";
 
             if (human == "rock" && ai == "scissors")
             {
