@@ -53,7 +53,8 @@
     <Compile Include="Paper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReadWrite.cs" />
+    <Compile Include="Read.cs" />
+    <Compile Include="Write.cs" />
     <Compile Include="Results.cs" />
     <Compile Include="Rock.cs" />
     <Compile Include="Scissors.cs" />

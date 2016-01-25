@@ -10,11 +10,11 @@ namespace RockPaperScissors
     {
         public void SpockWinSmash()
         {
-            Console.WriteLine("Spock smashes Scissors");
+            Console.WriteLine("Spock smashes Scissors...");
         }
         public void SpockWinVapor()
         {
-            Console.WriteLine("Spock vaporizes Rock");
+            Console.WriteLine("Spock vaporizes Rock...");
         }
         
     }

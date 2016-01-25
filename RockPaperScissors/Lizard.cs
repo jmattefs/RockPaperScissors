@@ -10,11 +10,11 @@ namespace RockPaperScissors
     {
         public void LizardWinPoison()
         {
-            Console.WriteLine("Lizard poisons Spock");
+            Console.WriteLine("**Lizard poisons Spock**");
         }
         public void LizardWinEat()
         {
-            Console.WriteLine("Lizard eats Paper");
+            Console.WriteLine("**Lizard eats Paper**");
         }
         
     }

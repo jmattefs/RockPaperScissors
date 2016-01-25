@@ -7,7 +7,7 @@ using System.IO;
 
 namespace RockPaperScissors
 {
-    public class ReadWrite
+    public class Write
     {
        
         
@@ -17,6 +17,7 @@ namespace RockPaperScissors
            File.AppendAllText (@"c:\users\joseph\desktop\rockpaperscissors\rockpaperscissorsrepo\highscores.txt",one + Environment.NewLine);
 
         }
+        
     }
 }
  

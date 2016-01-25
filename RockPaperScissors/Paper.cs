@@ -10,11 +10,11 @@ namespace RockPaperScissors
     {
         public void PaperWinCover()
         {
-            Console.WriteLine("Paper covers Rock");
+            Console.WriteLine("**Paper covers Rock**");
         }
         public void PaperWinDisprove()
         {
-            Console.WriteLine("Paper disproves Spock");
+            Console.WriteLine("**Paper disproves Spock**");
         }
        
     }

@@ -22,17 +22,17 @@ namespace RockPaperScissors
                 if (type == "1")
                 {
                     string humanResult = game.humanInput.humanChoice();
-                    
-
+                  
                     string aiResult = game.aiInput.getCompChoice();
                    
                     tie = game.winCheck.winCheckerAI(humanResult, aiResult);
 
-                   string outcome = game.results.resultCheckAI(humanResult, aiResult);
+                    string outcome = game.results.resultCheckAI(humanResult, aiResult);
 
-                    game.readWrite.writeTextToDocument(outcome);
+                    game.write.writeTextToDocument(outcome);
 
-                    Console.WriteLine();
+                    game.read.readTextFromDocument();
+                   
 
 
                 }
@@ -42,9 +42,10 @@ namespace RockPaperScissors
                     Console.Clear();
                     string humanResultTwo = game.humanInputTwo.humanChoiceTwo();
                     tie = game.winCheck.winCheckerH2H(humanResult, humanResultTwo);
-                    string outcome = game.results.resultCheckAI(humanResult, humanResultTwo);
+                    string outcome = game.results.resultCheckH2H(humanResult, humanResultTwo);
 
-                    game.readWrite.writeTextToDocument(outcome);
+                    game.write.writeTextToDocument(outcome);
+                    game.read.readTextFromDocument();
 
                 }
                 else if (type == "3")

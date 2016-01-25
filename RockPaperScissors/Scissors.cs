@@ -10,11 +10,11 @@ namespace RockPaperScissors
     {
         public void ScissorsWinCut()
         {
-            Console.WriteLine("Scissors cuts Paper");
+            Console.WriteLine("**Scissors cuts Paper**");
         }
         public void ScissorsWinDecap()
         {
-            Console.WriteLine("Scissors decapitates Lizard");
+            Console.WriteLine("**Scissors decapitates Lizard**");
         }
        
     }

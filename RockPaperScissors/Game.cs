@@ -12,33 +12,23 @@ namespace RockPaperScissors
         public StartGame startGame;
         public HumanInput humanInput;
         public AIInput aiInput;
-        
         public HumanInputTwo humanInputTwo;
         public WinCheck winCheck;
-        public ReadWrite readWrite;
-        
+        public Write write;
+        public Read read;
         public Results results;
-      
-        
+
 
         public Game()
         {
             startGame = new StartGame();
             humanInput = new HumanInput();
-            
             aiInput = new AIInput();
-            
             winCheck = new WinCheck();
-            
-
             humanInputTwo = new HumanInputTwo();
-
-            readWrite = new ReadWrite();
-
-           
+            write = new Write();
+            read = new Read();
             results = new Results();
-            
-           
         }
     }
 }
