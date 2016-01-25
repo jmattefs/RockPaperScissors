@@ -32,7 +32,6 @@ namespace RockPaperScissors
                     game.write.writeTextToDocument(outcome);
 
                     game.read.readTextFromDocument();
-                   
 
 
                 }
